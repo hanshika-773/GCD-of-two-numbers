@@ -1,4 +1,5 @@
-# Find the GCD of two numbers
+# Date:
+# Ex.No.4: Find the GCD of two numbers
 
 ## AIM:
 To write a program to find the GCD of two numbers using function.
@@ -15,16 +16,18 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+def gcd():
+    num1 = int(input())
+    num2 = int(input())
+    
+    while num2:
+        num1, num2 = num2, num1 % num2
+    
+    print("GCD of two numbers is:",num1)
 ```
 
 ## Output:
-
-
+![Screenshot 2024-09-04 160509](https://github.com/user-attachments/assets/dced91b3-2f2c-4770-82d4-3902a4a7b6fb)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
